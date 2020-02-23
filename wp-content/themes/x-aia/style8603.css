@@ -1,0 +1,85 @@
+/*
+
+Theme Name: AIA
+Theme URI: https://aiad.com.au
+Author: Jacob Squires
+Author URI: https://aiad.com.au
+Description: AIA Base Theme
+Version: 1.0.1
+Template: x
+*/
+
+body .ngg-galleryoverview{
+margin-bottom:0px;
+}
+body.home .btnCTA {
+    background-color: #238e3c;
+}
+body.home .btnCTA:hover {
+    background-color: #000;
+}
+body .ngg-galleryoverview.default-view .ngg-gallery-thumbnail img{
+width:100%;
+}
+
+body .ngg-galleryoverview.default-view .ngg-gallery-thumbnail a{
+margin:0px;
+}
+
+html body{
+overflow:hidden;
+}
+
+.home-gallery .twenty20{
+margin:0 auto !important;
+}
+
+.gallery-cta{
+padding:40px 0px !important;
+}
+
+.white-btn input[type="submit"]{
+color: #fff;
+    border-color: #fff;
+}
+    
+.social-top{
+list-style: none;
+margin: 0px;
+float: right;
+}
+.social-top li{
+display: inline-block;
+margin: 0px 10px 0px 0px;
+}
+body footer.x-colophon.bottom {
+    margin-bottom: -1.6% !important;
+}
+
+.two_featured a{
+color:#111;
+}
+
+.single-featured-area {
+    background: #238e3c0d;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+    box-shadow: 0px 0px 40px 0px rgba(53, 61, 92, 0.21);
+}
+
+.single-featured-area img{
+	width:100%;
+}
+
+.single-featured-area h3{
+margin-top: 0px;
+    color: #238e3c;
+}
+
+.single-featured-content-area{
+    padding: 22px 42px;
+}
+
+#post-846 .twentytwenty-container {
+    max-height: 450px !important
+}
